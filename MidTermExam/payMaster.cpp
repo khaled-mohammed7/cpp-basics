@@ -21,18 +21,16 @@ int main()
         bouns = Work_years * 10;
     else
         bouns = Work_years * 20;
-    
-    
-    if (total_sales >= 50000 && total_sales <= 10000) 
+
+    if (total_sales >= 5000 && total_sales < 10000)
         additional_bonus = total_sales * 0.03;
-    else if (total_sales > 10000)
+    else if (total_sales >= 10000)
         additional_bonus = total_sales * 0.06;
     else
         additional_bonus = 0;
-    
-    
+
     pay_check = base_salary + bouns + additional_bonus;
-    cout<< "pay_check = " << pay_check << "$ \n";
+    cout << "pay_check = " << pay_check << "$ \n";
 
     return 0;
 }

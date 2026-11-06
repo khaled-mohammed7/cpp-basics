@@ -12,17 +12,17 @@ int mai ()
     smallest = A ;
 
     if(B > largest )
-          cout<<"B \n";
+          cout<<B<< "\n";
     else if(C > largest)
-          cout<< "C \n" ;
+          cout<<C<<"\n" ;
     else if(D > largest)
-          cout<< "D \n" ;                
+          cout<<D<<"\n" ;                
     else if(B < smallest)
-          cout<< "B \n" ;
+          cout<<B<<"\n" ;
     else if(C < smallest)
-          cout<< "C \n" ;
+          cout<<C<<"\n" ;
     else if(D < smallest)    
-          cout<< "D \n" ;
+          cout<<D<<"\n" ;
     cout<<"largest: "<<largest<<"\n""smallest: "<<smallest<<"\n";    
 
     return 0 ;
